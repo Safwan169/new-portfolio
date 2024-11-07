@@ -19,7 +19,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+          Junior Front-End developer
           </h1>
         </motion.div>
 
@@ -46,9 +46,15 @@ const HeroContent = () => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-2 button-primary montserrat text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn More!
+
+          <a className="flex px-4" href=" https://drive.usercontent.google.com/u/0/uc?id=1DNpG1DuY3SQQnLcG7C9dO42PpM20x7sv&export=download">
+        
+          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+          Download CV
+
+          </a>
         </motion.a>
       </div>
 
