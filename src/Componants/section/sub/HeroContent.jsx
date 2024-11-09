@@ -49,9 +49,7 @@ const HeroContent = () => {
           className="py-2 button-primary montserrat text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
 
-          <a className="flex px-4" href=" https://drive.usercontent.google.com/u/0/uc?id=1DNpG1DuY3SQQnLcG7C9dO42PpM20x7sv&export=download">
-        
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+          <a href=" https://drive.usercontent.google.com/u/0/uc?id=1DNpG1DuY3SQQnLcG7C9dO42PpM20x7sv&export=download" download={'https://drive.usercontent.google.com/u/0/uc?id=1DNpG1DuY3SQQnLcG7C9dO42PpM20x7sv&export=download'}>
           Download CV
 
           </a>

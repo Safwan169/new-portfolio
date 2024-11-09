@@ -7,6 +7,7 @@ import Skills from "./Componants/section/Skills";
 import { Star } from "./Star";
 import { BrowserRouter } from "react-router-dom";
 import { StarsCanvas } from "./Componants/animation";
+import React from 'react'
 
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -27,12 +28,11 @@ function App() {
       <div className="bg-black relative z-0  overflow-x-hidden h-full">
         <div className="bg-center bg-no-repeat bg-cover bg-hero-pattern">
           <Navbar />
-          <Extra width={width} />
+          {/* <Extra width={width} /> */}
         </div>
-        {/* <Hero/> */}
+        <Hero/>
         <Skills />
       </div>
-      <StarsCanvas/>
 
     </BrowserRouter>
   );

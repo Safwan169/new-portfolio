@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import { styles } from "../Extra/styles";
 import { ComputersCanvas } from "../../animation";
 import computer  from "/computer.png";
+// import { IconCloudDemo } from "../../magicui/Icon-cloud";
+import React from 'react'
 
 const Extra = ({ width }) => {
   return (
@@ -24,29 +26,7 @@ const Extra = ({ width }) => {
         </div>
       </div>
 
-      {width > 480 ? (
-        <ComputersCanvas />
-      ) : (
-        <div className="absolute top-[400px] w-full flex justify-center">
-          <img src={computer} alt="" className="scale-125 w-80" />
-        </div>
-      )}
-
-      <div className="absolute flex items-center justify-center w-full xs:bottom-10 bottom-32">
-        <a href="#about">
-          <div className="w-[25px] h-[44px] rounded-3xl border-4 border-secondary flex justify-center items-start py-2">
-            <motion.div
-              animate={{ y: [0, 12, 0] }}
-              transition={{
-                duration: 1.5,
-                repeat: "infinite",
-                repeatType: "loop",
-              }}
-              className="w-1.5 h-1.5 rounded-full bg-secondary mb-1"
-            />
-          </div>
-        </a>
-      </div>
+     {/* < IconCloudDemo/> */}
     </section>
   );
 };
